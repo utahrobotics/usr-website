@@ -22,12 +22,12 @@
 	</p>
 	<h2>Our Robots</h2>
 	<div class="images">
-		<img src={bukavac} alt="Bukavac" />
-		<img src={amee} alt="AMEE" />
+		<a href="/about#bukavac"><img src={bukavac} alt="Bukavac" /></a>
+		<a href="/about#amee"><img src={amee} alt="AMEE" /></a>
 	</div>
 	<div class="images">
-		<img src={sandcrawler} alt="SandCrawler" />
-		<img src={masterChief} alt="MasterChief" />
+		<a href="/about#sandcrawler"><img src={sandcrawler} alt="SandCrawler" /></a>
+		<a href="/about#masterchief"><img src={masterChief} alt="MasterChief" /></a>
 	</div>
 	<h2>What We Do</h2>
 	<p>
@@ -41,10 +41,7 @@
 
 <style>
 	h1 {
-		align-self: center;
 		margin-top: min(4rem, 7.2vw);
-		font-size: min(6rem, 10.8vw);
-		color: whitesmoke;
 	}
 	h1 + h1 {
 		margin-top: 0px;
@@ -58,31 +55,6 @@
 		height: min(24rem, 43.2vw);
 		object-position: center -min(10rem, 18vw);
 	}
-	header {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-	main {
-		position: absolute;
-		margin-top: min(24rem, 43.2vw);
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: calc(50vw - 1rem);
-		padding-left: 1rem;
-		padding-right: 1rem;
-		padding-bottom: 7rem;
-		align-self: center;
-	}
-	h2 {
-		margin-top: min(1.5rem, 2.7vw);
-		font-size: min(2rem, 6vw);
-	}
-	p {
-		padding-top: min(1rem, 1.8vw);
-		font-size: min(1.25rem, 3.6vw);
-	}
 	.images {
 		display: flex;
 		flex-direction: row;
@@ -91,14 +63,21 @@
 		border-radius: min(1rem, 1.8vw);
 		border: 2px solid gray;
 	}
-	.images img {
+	.images a {
 		width: 50%;
 		height: fit-content;
 	}
-	.images img:last-child {
+	.images a img {
+		width: 100%;
+		height: fit-content;
+	}
+	.images a:last-child {
 		border-left: 2px dashed gray;
 	}
 	.images + .images {
 		margin-top: min(1.5rem, 2.7vw);
+	}
+	main {
+		margin-top: min(24rem, 43.2vw);
 	}
 </style>

@@ -23,7 +23,7 @@
 		join and you may get a chance to come to Florida with select members of the team to represent
 		our university in front of NASA scientists and heads of industry.
 	</p>
-	<h2>Bukavac</h2>
+	<h2 id="bukavac">Bukavac</h2>
 	<img src={bukavac} alt="Bukavac" />
 	<p>
 		Every year the team works hard to build a robot for NASA's Lunabotics Competition (formerly
@@ -32,7 +32,7 @@
 		Florida to compete against 50 other universities. The club offers students an opportunity to
 		learn new aspects of engineering and to apply what they've learned in classes.
 	</p>
-	<h2>AMEE</h2>
+	<h2 id="amee">AMEE</h2>
 	<img src={amee} alt="AMEE" />
 	<p>
 		AMEE stands for autonomous martian environment excavator. This robot features a front loading
@@ -44,7 +44,7 @@
 		because the the bucket on the front can be heavy enough to tip the robot forward when fully
 		loaded.
 	</p>
-	<h2>SandCrawler</h2>
+	<h2 id="sandcrawler">SandCrawler</h2>
 	<img src={sandcrawler} alt="SandCrawler" />
 	<p>
 		The Sandcrawler is called that because it resembles the jawa-piloted sandcrawlers from Tatooine
@@ -53,7 +53,7 @@
 		and an award for the use of a vibrator to reject dust from the collected material with the aid
 		of many holes and slots that allow the dust to pass through.
 	</p>
-	<h2>Master Chief</h2>
+	<h2 id="masterchief">Master Chief</h2>
 	<img src={masterChief} alt="MasterChief" />
 	<p>
 		Master chief is a mysterious robot that no one on the current or last team has ever seen. The
@@ -65,10 +65,7 @@
 
 <style>
 	h1 {
-		align-self: center;
 		margin-top: min(14rem, 13vw);
-		font-size: min(6rem, 10.8vw);
-		color: whitesmoke;
 	}
 	#background {
 		position: absolute;
@@ -79,30 +76,8 @@
 		height: min(36rem, 40vw);
 		object-position: center -min(10rem, 18vw);
 	}
-	header {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
 	main {
-		position: absolute;
 		margin-top: min(36rem, 40vw);
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: calc(100vw - 2rem);
-		padding-left: 1rem;
-		padding-right: 1rem;
-		padding-bottom: 7rem;
-	}
-	h2 {
-		margin-top: min(1.5rem, 2.7vw);
-		font-size: min(2rem, 6vw);
-	}
-	p {
-		padding-top: min(1rem, 1.8vw);
-		font-size: min(1.25rem, 3.6vw);
-		max-width: 50rem;
 	}
 	h2 + img {
 		width: min(25rem, 50vw);

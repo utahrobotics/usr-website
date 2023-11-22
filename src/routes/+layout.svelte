@@ -63,4 +63,34 @@
 	#home img {
 		width: min(7rem, 17vw);
 	}
+	:global(h1) {
+		align-self: center;
+		font-size: min(6rem, 10.8vw);
+		color: whitesmoke;
+	}
+	:global(header) {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	:global(main) {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: calc(50vw - 1rem);
+		padding-left: 1rem;
+		padding-right: 1rem;
+		padding-bottom: 7rem;
+		align-self: center;
+	}
+	:global(h2) {
+		margin-top: min(1.5rem, 2.7vw);
+		font-size: min(2rem, 6vw);
+	}
+	:global(p) {
+		padding-top: min(1rem, 1.8vw);
+		font-size: min(1.25rem, 3.6vw);
+		max-width: 50rem;
+	}
 </style>
