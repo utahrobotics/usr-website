@@ -10,7 +10,6 @@
 <div id="page">
 	<slot />
 </div>
-
 <style>
 	:global(*) {
 		margin: 0px;
@@ -26,6 +25,7 @@
 		flex-direction: column;
 	}
 	nav {
+        z-index: 10;
 		position: fixed;
 		display: flex;
 		flex-direction: row;
@@ -52,6 +52,7 @@
 		margin-right: min(2rem, 3.6vw);
 	}
 	#home {
+        z-index: 11;
 		position: fixed;
 		background-color: hsl(0, 0%, 93%);
 		margin-left: min(2rem, 3.6vw);
