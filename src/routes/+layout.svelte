@@ -60,6 +60,9 @@
 		padding: min(0.8rem, 1.44vw);
 		border-radius: 7rem;
 	}
+    :global(body) {
+        background-color: whitesmoke;
+    }
 	#home img {
 		width: min(7rem, 17vw);
 	}
