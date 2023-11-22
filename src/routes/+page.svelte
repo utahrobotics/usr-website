@@ -20,13 +20,14 @@
 		flourished into the multi-disciplinary club that it is today, combining electrical, mechanical,
 		computer, and mining expertise.
 	</p>
-	<div id="images">
-		<img src={bukavac} alt="Bukavac">
-		<img src={amee} alt="AMEE">
+	<h2>Our Robots</h2>
+	<div class="images">
+		<img src={bukavac} alt="Bukavac" />
+		<img src={amee} alt="AMEE" />
 	</div>
-	<div id="images">
-		<img src={sandcrawler} alt="SandCrawler">
-		<img src={masterChief} alt="MasterChief">
+	<div class="images">
+		<img src={sandcrawler} alt="SandCrawler" />
+		<img src={masterChief} alt="MasterChief" />
 	</div>
 	<h2>What We Do</h2>
 	<p>
@@ -68,10 +69,11 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width: calc(100vw - 2rem);
+		width: calc(50vw - 1rem);
 		padding-left: 1rem;
 		padding-right: 1rem;
 		padding-bottom: 7rem;
+		align-self: center;
 	}
 	h2 {
 		margin-top: min(1.5rem, 2.7vw);
@@ -80,16 +82,23 @@
 	p {
 		padding-top: min(1rem, 1.8vw);
 		font-size: min(1.25rem, 3.6vw);
-		max-width: 50rem;
 	}
-	#images {
+	.images {
 		display: flex;
 		flex-direction: row;
-		max-width: 50rem;
 		align-items: center;
+		background-color: hsl(0, 0%, 93%);
+		border-radius: min(1rem, 1.8vw);
+		border: 2px solid gray;
 	}
-	#images img {
-		width: min(25rem, 50vw);
+	.images img {
+		width: 50%;
 		height: fit-content;
+	}
+	.images img:last-child {
+		border-left: 2px dashed gray;
+	}
+	.images + .images {
+		margin-top: min(1.5rem, 2.7vw);
 	}
 </style>
