@@ -6,7 +6,7 @@
 	import masterChief from '$lib/assets/master chief.png';
 </script>
 
-<title>Utah Student Robotics</title>
+<title>About | Utah Student Robotics</title>
 <header>
 	<img src={teamPhoto} id="background" alt="Background" />
 	<h1>About</h1>
@@ -19,7 +19,7 @@
 		the NASA Robotic Mining Competition. Our efforts throughout the year culminate into one large
 		complex robot. The Robot's sole purpose is off-world mining. A lot of research, design, assembly
 		is provided by the team to support that purpose. Each robot we build is unique and thought must
-		be put into how it will move, dig, automate, be powered, be shaped, etc.. The club is free to
+		be put into how it will move, dig, automate, be powered, be shaped, etc. The club is free to
 		join and you may get a chance to come to Florida with select members of the team to represent
 		our university in front of NASA scientists and heads of industry.
 	</p>

@@ -5,7 +5,7 @@
 
 	if (browser) {
 		console.log($page.status);
-		goto("/");
+		goto('/');
 	}
 </script>
 
@@ -13,7 +13,7 @@
 
 <noscript>
 	<h1>{$page.error?.message ?? ''}</h1>
-	
+
 	<style>
 		h1 {
 			align-self: center;
