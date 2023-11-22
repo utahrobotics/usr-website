@@ -78,7 +78,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width: calc(50vw - 1rem);
+		width: min(48rem, 100vw - 2rem);
 		padding-left: 1rem;
 		padding-right: 1rem;
 		padding-bottom: 7rem;
