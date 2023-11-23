@@ -67,7 +67,7 @@
 	#background {
 		position: absolute;
 		z-index: -1;
-		width: 100vw;
+		width: 100%;
 		filter: brightness(50%);
 		object-fit: cover;
 		height: min(36rem, 40vw);
